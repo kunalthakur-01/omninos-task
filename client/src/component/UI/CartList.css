@@ -1,0 +1,34 @@
+.items-names {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.items-names article {
+    flex-basis: 18%;
+    text-align: center;
+}
+
+.items-names article p{
+    font-size: 15px;
+    font-family: monospace;
+    opacity: 0.8;
+}
+
+.list-items-section {
+    max-height: 17rem;
+    overflow: auto;
+}
+
+.list-items-section::-webkit-scrollbar{
+    width: 4px;
+}
+.list-items-section::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+    display: none;
+}
+.list-items-section::-webkit-scrollbar-corner{
+    display: none;
+}

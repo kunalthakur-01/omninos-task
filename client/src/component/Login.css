@@ -1,0 +1,132 @@
+/* .login_form {
+    background-color: gray;
+    width: 50%;
+    height: 10rem;
+} */
+
+
+
+.login-section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    flex-basis: 30%;
+}
+
+.login-form-vector-design {
+    flex: 1;
+    background-color: var(--bg-color1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-vector-design img {
+    width: 55%;
+    height: 75%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-party-login h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+
+.third-parties {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.third-parties button {
+    background-color: var(--light-bg-color1);
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.third-party-icon{
+    font-size: 21px;
+}
+
+.small-p {
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 3rem 0 2rem;
+}
+
+.login-form form {
+    width: 70%;
+}
+
+.form-input {
+    margin-bottom: 17px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-input label {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.form-input input {
+    font-size: 16px;
+    color: black;
+    padding: 10px;
+    background-color: var(--light-bg-color1);
+    margin-top: 6px;  
+    border-radius: 3px; 
+    position: relative;
+}
+
+.form-input input::placeholder {
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.form-input article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6px;
+}
+
+.form-input article p{
+    font-size: 13px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-input article a{
+    text-decoration: none;
+    /* color: ; */
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* float: right; */
+}
+
+.login-form-btn {
+    font-size: 15px;
+    padding: 10px 15px !important;
+    cursor: pointer;
+}
